@@ -10,14 +10,14 @@
 	<string>Texagon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F5790297977A5D1C8E4208BD806695BF5B5028EB</key>
+		<key>FA974391064081BE354E66C296FCF0233015609F</key>
 		<string>https://github.com/IIBirdie77II/Texagon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Texagon.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F5790297977A5D1C8E4208BD806695BF5B5028EB</key>
+		<key>FA974391064081BE354E66C296FCF0233015609F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F5790297977A5D1C8E4208BD806695BF5B5028EB</string>
+	<string>FA974391064081BE354E66C296FCF0233015609F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F5790297977A5D1C8E4208BD806695BF5B5028EB</string>
+			<string>FA974391064081BE354E66C296FCF0233015609F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Texagon</string>
 		</dict>
