@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8ZR-NO-I1c">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="timeburner_regular.ttf">
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="kRZ-RN-hKD">
+            <objects>
+                <viewController id="8ZR-NO-I1c" customClass="HIStartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q7I-7C-fPr"/>
+                        <viewControllerLayoutGuide type="bottom" id="sio-Pv-sgm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z9T-97-jTw">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hexagon.png" translatesAutoresizingMaskIntoConstraints="NO" id="KFF-9b-0ah">
+                                <rect key="frame" x="209" y="337" width="350" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="05W-DF-f7K"/>
+                                    <constraint firstAttribute="height" constant="350" id="kg3-Hy-MBO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Texagon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfp-m6-tdu">
+                                <rect key="frame" x="66" y="129" width="636" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="636" id="4o1-KU-UN4"/>
+                                    <constraint firstAttribute="height" constant="200" id="f9k-fc-fC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="120"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haxa Inc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ez0-Ui-abL">
+                                <rect key="frame" x="66" y="695" width="636" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="636" id="f0d-gb-7iO"/>
+                                    <constraint firstAttribute="height" constant="200" id="j46-XI-gPB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="80"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="ez0-Ui-abL" secondAttribute="centerY" constant="-283" id="1CF-Pk-bj7"/>
+                            <constraint firstAttribute="centerX" secondItem="KFF-9b-0ah" secondAttribute="centerX" id="FhH-Dr-kav"/>
+                            <constraint firstAttribute="centerY" secondItem="rfp-m6-tdu" secondAttribute="centerY" constant="283" id="L38-xJ-DiR"/>
+                            <constraint firstAttribute="centerY" secondItem="KFF-9b-0ah" secondAttribute="centerY" id="Tt0-Rk-M8R"/>
+                            <constraint firstAttribute="centerX" secondItem="rfp-m6-tdu" secondAttribute="centerX" id="aP0-Za-Lhs"/>
+                            <constraint firstAttribute="centerX" secondItem="ez0-Ui-abL" secondAttribute="centerX" id="poj-qe-dpV"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="CTX-WO-rNm" kind="custom" identifier="next" customClass="HIFadeOutSegue" id="XKw-5F-3zB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogq-MY-Sr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="212"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="BTm-jr-MaC">
+            <objects>
+                <viewController id="CTX-WO-rNm" customClass="HIMenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E6Q-FC-ll4"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Yb-Hw-Iad"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IHe-0D-RBB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kok-HI-iOq">
+                                <rect key="frame" x="256" y="384" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="Ryp-zV-OJE"/>
+                                    <constraint firstAttribute="height" constant="256" id="fcs-OL-7HA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="start.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="start_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5fc-yx-aHS" kind="custom" customClass="HIFlatPushDownwardSegue" id="w7T-OW-EfU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6Y-sU-RCi">
+                                <rect key="frame" x="354" y="944" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="VDl-At-Z7G"/>
+                                    <constraint firstAttribute="width" constant="60" id="YXp-Jd-XoH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="settings.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="settings_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fastest Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nz-9i-9ei">
+                                <rect key="frame" x="20" y="20" width="728" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="728" id="6HJ-LY-fOY"/>
+                                    <constraint firstAttribute="height" constant="116" id="Vct-vu-61g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="50"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="kok-HI-iOq" secondAttribute="centerY" id="O0u-Qp-CN4"/>
+                            <constraint firstItem="5Nz-9i-9ei" firstAttribute="top" secondItem="E6Q-FC-ll4" secondAttribute="bottom" id="YfE-DE-uvj"/>
+                            <constraint firstItem="2Yb-Hw-Iad" firstAttribute="top" secondItem="A6Y-sU-RCi" secondAttribute="bottom" constant="20" id="ZA1-AG-QhO"/>
+                            <constraint firstAttribute="trailing" secondItem="A6Y-sU-RCi" secondAttribute="trailing" constant="354" id="g1k-XT-2jS"/>
+                            <constraint firstAttribute="centerX" secondItem="kok-HI-iOq" secondAttribute="centerX" id="pco-ra-PnN"/>
+                            <constraint firstItem="5Nz-9i-9ei" firstAttribute="leading" secondItem="IHe-0D-RBB" secondAttribute="leading" constant="20" id="w4g-wh-tGE"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="5Nz-9i-9ei" id="lDK-fq-mH5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdD-En-KOM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="212"/>
+        </scene>
+        <!--Zen Game View Controller-->
+        <scene sceneID="Cs2-Ej-Gnv">
+            <objects>
+                <viewController id="5fc-yx-aHS" customClass="HIZenGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CbD-Rk-4gC"/>
+                        <viewControllerLayoutGuide type="bottom" id="G8n-oX-NZo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SPn-ft-KrB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJc-TJ-ZJx">
+                                <rect key="frame" x="65" y="65" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Afy-Tp-nv6"/>
+                                    <constraint firstAttribute="width" constant="60" id="gUa-Qh-xUm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="pause.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pause_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ls4-4I-Zdg">
+                                <rect key="frame" x="20" y="20" width="728" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="728" id="AJU-ey-LzD"/>
+                                    <constraint firstAttribute="height" constant="150" id="Ja3-Wa-uOt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="50"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noR-P9-4RP">
+                                <rect key="frame" x="20" y="178" width="728" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="728" id="FrJ-UE-nhW"/>
+                                    <constraint firstAttribute="height" constant="150" id="nGm-7p-1R8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="50"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="noR-P9-4RP" firstAttribute="leading" secondItem="SPn-ft-KrB" secondAttribute="leading" constant="20" id="A4r-jK-jaA"/>
+                            <constraint firstItem="xJc-TJ-ZJx" firstAttribute="top" secondItem="CbD-Rk-4gC" secondAttribute="bottom" constant="45" id="QOu-Oe-9Xw"/>
+                            <constraint firstItem="ls4-4I-Zdg" firstAttribute="top" secondItem="CbD-Rk-4gC" secondAttribute="bottom" id="WEu-8E-1b0"/>
+                            <constraint firstItem="noR-P9-4RP" firstAttribute="top" secondItem="ls4-4I-Zdg" secondAttribute="bottom" constant="8" id="Xfg-yB-sLq"/>
+                            <constraint firstItem="xJc-TJ-ZJx" firstAttribute="leading" secondItem="SPn-ft-KrB" secondAttribute="leading" constant="65" id="a4R-ez-aeU"/>
+                            <constraint firstItem="ls4-4I-Zdg" firstAttribute="leading" secondItem="SPn-ft-KrB" secondAttribute="leading" constant="20" id="byx-G3-iYp"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cmp-eN-lPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952" y="212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hexagon.png" width="500" height="500"/>
+        <image name="pause.png" width="60" height="60"/>
+        <image name="pause_selected.png" width="60" height="60"/>
+        <image name="settings.png" width="60" height="60"/>
+        <image name="settings_selected.png" width="60" height="60"/>
+        <image name="start.png" width="256" height="256"/>
+        <image name="start_selected.png" width="256" height="256"/>
+    </resources>
+</document>

@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="8fW-DR-0OW">
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="timeburner_regular.ttf">
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="HfM-AF-CHq">
+            <objects>
+                <viewController id="8fW-DR-0OW" customClass="HIStartViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QLx-mg-Vz0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haxa Inc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x3O-Hx-7a7">
+                                <rect key="frame" x="20" y="382" width="280" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="35"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red.png" id="15x-u8-5rJ">
+                                <rect key="frame" x="30" y="160" width="260" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Texagon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vqj-Gq-tgQ">
+                                <rect key="frame" x="20" y="89" width="280" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="55"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411764705883" green="0.45098039215686275" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="51A-fP-iST" kind="custom" identifier="notfirst" customClass="HIFadeOutSegue" id="mGT-HZ-gPQ"/>
+                        <segue destination="s73-Z3-chJ" kind="custom" identifier="first" customClass="HIFadeOutSegue" id="bim-cV-8gj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NbD-Sf-jYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-283" y="647"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="wuR-5N-eEM">
+            <objects>
+                <viewController id="s73-Z3-chJ" customClass="HITutorialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Xr-RG-iaQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap red tiles." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yaY-0Z-IN7">
+                                <rect key="frame" x="20" y="35" width="280" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="wvf-CO-tIn">
+                                <rect key="frame" x="20" y="428" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="FmB-Nj-otd" eventType="touchUpInside" id="1q1-0C-hA0"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="rL5-wf-uLn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tutorialLabel" destination="yaY-0Z-IN7" id="Zph-zi-vF7"/>
+                        <segue destination="51A-fP-iST" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="owQ-Mu-SxO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RvY-0s-Q6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-177" y="925"/>
+        </scene>
+        <!--Achievement View Controller-->
+        <scene sceneID="P6h-em-OW5">
+            <objects>
+                <viewController id="MVk-AL-0QB" customClass="HIAchievementViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qci-ww-6Yz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KMV-aj-Vdf">
+                                <rect key="frame" x="20" y="126" width="280" height="316"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="gyu-de-kB1">
+                                <rect key="frame" x="29" y="402" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="MVk-AL-0QB" eventType="touchUpInside" id="T1u-Jr-5zH"/>
+                                    <segue destination="wjq-7x-usS" kind="custom" customClass="HIFlatPushDownwardSegue" id="XYx-vo-YGe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="KMV-aj-Vdf" id="c6s-OU-hAC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndM-9C-knQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34.666666666666664" y="-897.43999999999994"/>
+        </scene>
+        <!--Achievements Table View Controller-->
+        <scene sceneID="Baz-Tg-2vk">
+            <objects>
+                <viewController id="wjq-7x-usS" customClass="HIAchievementsTableViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ct-Dg-JcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="65" sectionHeaderHeight="10" sectionFooterHeight="10" id="Ow8-2D-dsG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="VaA-CZ-16F">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VaA-CZ-16F" id="rKg-Hv-gOH">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="MVk-AL-0QB" kind="custom" identifier="detail" customClass="HIFlatPushUpwardSegue" id="eNc-eE-Bbl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wjq-7x-usS" id="OXY-Lz-l4M"/>
+                                    <outlet property="delegate" destination="wjq-7x-usS" id="1Ij-fj-h7X"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Crr-cw-zYG">
+                                <rect key="frame" x="8" y="11" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="wjq-7x-usS" eventType="touchUpInside" id="ITf-Fa-UZK"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="KS3-X3-xjI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Ow8-2D-dsG" id="Q8q-4v-lzp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6h8-EK-aos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34.666666666666664" y="-289.68000000000001"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="Nob-07-d3J">
+            <objects>
+                <viewController id="FmB-Nj-otd" customClass="HISettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eLw-S1-HbL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4c2-6e-8Fx">
+                                <rect key="frame" x="16" y="247" width="288" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Sound: On"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="soundButtonPressed:" destination="FmB-Nj-otd" eventType="touchUpInside" id="FzS-Qo-XWe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="81T-9J-igD">
+                                <rect key="frame" x="16" y="288" width="288" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Music: On"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="musicButtonPressed:" destination="FmB-Nj-otd" eventType="touchUpInside" id="cl0-8W-LfQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="y0L-Ha-K1k">
+                                <rect key="frame" x="16" y="436" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="FmB-Nj-otd" eventType="touchUpInside" id="xbX-wH-V7f"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="8lU-jW-i97"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="musicButton" destination="81T-9J-igD" id="BMy-kI-WXQ"/>
+                        <outlet property="soundButton" destination="4c2-6e-8Fx" id="fBE-I8-hA0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1j-PE-qzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="-308"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="naG-G6-Qne">
+            <objects>
+                <viewController id="51A-fP-iST" customClass="HIMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ew-1P-Y59">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Ajo-kg-1LE">
+                                <rect key="frame" x="20" y="144" width="280" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="start_red.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="start_red_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="dhw-wv-aOw"/>
+                                    <action selector="startButtonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="oPz-5D-2Ph"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ig2-CT-1Be">
+                                <rect key="frame" x="188" y="31" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="help_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="help_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="eIQ-0y-fXc"/>
+                                    <segue destination="s73-Z3-chJ" kind="custom" customClass="HIFlatPushUpwardSegue" id="0ji-IK-hmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="dFI-AE-ICW">
+                                <rect key="frame" x="140" y="31" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="settings_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="settings_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="3aB-p5-eOE"/>
+                                    <segue destination="FmB-Nj-otd" kind="custom" customClass="HIFlatPushUpwardSegue" id="GU2-Du-46c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="7rO-ng-Zdi">
+                                <rect key="frame" x="92" y="31" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="achievements_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="achievements_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="ZPx-FH-HPd"/>
+                                    <segue destination="wjq-7x-usS" kind="custom" customClass="HIFlatPushUpwardSegue" id="ofS-Wn-Y2b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1fa-W3-S77">
+                                <rect key="frame" x="16" y="499" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <state key="normal" title="Rate Us!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="RateUs:" destination="51A-fP-iST" eventType="touchUpInside" id="zSB-xP-6v5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0dA-CC-u4I">
+                                <rect key="frame" x="105" y="432" width="111" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="xrv-Ks-fqS"/>
+                                    <segue destination="pVt-p5-BPk" kind="custom" customClass="HIFlatPushDownwardSegue" id="cVq-Tn-zej"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="817-uW-ISR" kind="custom" identifier="multiplayer" customClass="HIFlatPushDownwardSegue" id="BhA-Xo-bHP"/>
+                        <segue destination="kDh-WA-P0M" kind="custom" identifier="singleplayer" customClass="HIFlatPushDownwardSegue" id="3bx-1V-Bdf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJj-Vq-KaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="306"/>
+        </scene>
+        <!--Zen Game View Controller-->
+        <scene sceneID="UEg-Gx-uNi">
+            <objects>
+                <viewController id="EV1-pK-mdd" customClass="HIZenGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x34-pT-0Z6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="nTN-BB-UjC">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="EV1-pK-mdd" eventType="touchUpInside" id="F0b-8G-m9n"/>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="jGc-eC-IV7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="foY-dJ-bDt">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sfW-Gs-AoS">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="movesLabel" destination="foY-dJ-bDt" id="tbm-Bv-fLf"/>
+                        <outlet property="timeLabel" destination="sfW-Gs-AoS" id="DyS-gY-g9s"/>
+                        <segue destination="MHH-0o-L7n" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="V1N-c8-hut"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QF-KY-7vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="931"/>
+        </scene>
+        <!--Classic Win View Controller-->
+        <scene sceneID="V9X-Dx-Y8H">
+            <objects>
+                <viewController id="Ah9-QT-ixl" customClass="HIClassicWinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bWD-rm-Az3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oU8-3b-AEb">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6ba-Aq-zty">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fastest Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NMx-VP-MTM">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XzY-W1-6N4">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="Ah9-QT-ixl" eventType="touchUpInside" id="NF1-8p-BXo"/>
+                                    <segue destination="LYh-2f-mfo" kind="custom" customClass="HIFlatPushUpwardSegue" id="o1t-W4-jyq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Df4-wZ-YPt">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="Ah9-QT-ixl" eventType="touchUpInside" id="tP3-Wr-cVe"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="n18-QE-SYo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q2c-sP-U2U">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="Ah9-QT-ixl" eventType="touchUpInside" id="Nfm-m7-zSH"/>
+                                    <action selector="shareButtonPressed:" destination="Ah9-QT-ixl" eventType="touchUpInside" id="Rhx-Ll-D0U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="NMx-VP-MTM" id="ZRc-pD-ZFg"/>
+                        <outlet property="timeLabel" destination="6ba-Aq-zty" id="AqM-2S-R8Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ab-bQ-bAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566.39999999999998" y="320.92000000000002"/>
+        </scene>
+        <!--Multiplayer Game View Controller-->
+        <scene sceneID="Tvo-5a-PXv">
+            <objects>
+                <viewController id="817-uW-ISR" customClass="HIMultiplayerGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b2u-tE-DAb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SIa-fL-T6w">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="qqO-NY-QBv">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="817-uW-ISR" eventType="touchUpInside" id="orI-U9-3H9"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="bZu-uP-i47"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TBT-7B-g21">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="movesLabel" destination="TBT-7B-g21" id="6kF-OZ-AHX"/>
+                        <outlet property="timeLabel" destination="SIa-fL-T6w" id="ltF-8a-HP8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mML-vS-BbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-21" y="925"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z6s-me-7O3">
+            <objects>
+                <viewController id="kDh-WA-P0M" customClass="HIViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0t6-va-lzk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Mode:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a7g-Yf-RtU">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="oZx-Kt-U2P">
+                                <rect key="frame" x="52" y="168" width="136" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="classic_red.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="classic_red_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="kDh-WA-P0M" eventType="touchUpInside" id="7LK-fZ-iNa"/>
+                                    <segue destination="LYh-2f-mfo" kind="custom" customClass="HIFlatPushDownwardSegue" id="ec6-WX-yzl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="XSo-Pp-mbr">
+                                <rect key="frame" x="134" y="216" width="136" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="zen_blue.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="zen_blue_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="kDh-WA-P0M" eventType="touchUpInside" id="FTs-S7-3qd"/>
+                                    <segue destination="EV1-pK-mdd" kind="custom" customClass="HIFlatPushDownwardSegue" id="lqQ-IS-O9U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="jN0-CQ-1aH">
+                                <rect key="frame" x="52" y="263" width="136" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="time_attack_gray.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="time_attack_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="kDh-WA-P0M" eventType="touchUpInside" id="PSI-Ez-meb"/>
+                                    <segue destination="5mS-bT-Ch6" kind="custom" customClass="HIFlatPushDownwardSegue" id="IVz-OE-Fec"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="0vs-7S-Pfb">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="kDh-WA-P0M" eventType="touchUpInside" id="N5H-rt-gA9"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="pCM-da-03y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2j-JM-hkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165.86666666666667" y="320.92000000000002"/>
+        </scene>
+        <!--Classic Game View Controller-->
+        <scene sceneID="BoR-QB-nTd">
+            <objects>
+                <viewController id="LYh-2f-mfo" customClass="HIClassicGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bBc-yZ-eMI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VMW-6b-gxd">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pUq-PN-GN8">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="LYh-2f-mfo" eventType="touchUpInside" id="EQe-o2-KTT"/>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="gio-Sl-gsM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SLW-hY-rTW">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="movesLabel" destination="SLW-hY-rTW" id="M3a-cx-vHT"/>
+                        <outlet property="timeLabel" destination="VMW-6b-gxd" id="2XU-ou-lRh"/>
+                        <segue destination="Ah9-QT-ixl" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="DUh-TR-Btw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1h-ID-e4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364.80000000000001" y="320.92000000000002"/>
+        </scene>
+        <!--Zen Win View Controller-->
+        <scene sceneID="EYe-cB-J0f">
+            <objects>
+                <viewController id="MHH-0o-L7n" customClass="HIZenWinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ca9-Hj-pkw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DQu-Vq-RVx">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bCS-CM-meg">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="a6A-Qv-bMW">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="MHH-0o-L7n" eventType="touchUpInside" id="OFy-BK-ClO"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="EmB-um-Jft"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LI0-iw-civ">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="MHH-0o-L7n" eventType="touchUpInside" id="5Vi-4J-X3G"/>
+                                    <action selector="shareButtonPressed:" destination="MHH-0o-L7n" eventType="touchUpInside" id="7Cx-1G-Dxg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7oJ-wf-NQb">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zHc-Zb-79q">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="MHH-0o-L7n" eventType="touchUpInside" id="0Rz-Q0-iGS"/>
+                                    <segue destination="EV1-pK-mdd" kind="custom" customClass="HIFlatPushUpwardSegue" id="hew-60-3Nn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="7oJ-wf-NQb" id="GqL-K1-yRW"/>
+                        <outlet property="timeLabel" destination="bCS-CM-meg" id="tsd-yN-hJ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzd-Ec-9rO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544" y="919"/>
+        </scene>
+        <!--Time Attack Win View Controller-->
+        <scene sceneID="lGB-MD-Jmx">
+            <objects>
+                <viewController id="iEb-3g-pYa" customClass="HITimeAttackWinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g9q-ZH-QW3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hW8-gw-0p7">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k9G-gQ-cLf">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vSH-cl-iNS">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Icp-Cl-3JH">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="iEb-3g-pYa" eventType="touchUpInside" id="K3x-vZ-unk"/>
+                                    <segue destination="5mS-bT-Ch6" kind="custom" customClass="HIFlatPushUpwardSegue" id="INW-Xa-eBo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="htK-94-JJg">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="iEb-3g-pYa" eventType="touchUpInside" id="BFp-fN-LnR"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="rXI-Ph-W2K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Gnz-VT-0af">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="iEb-3g-pYa" eventType="touchUpInside" id="5rZ-3g-cuR"/>
+                                    <action selector="shareButtonPressed:" destination="iEb-3g-pYa" eventType="touchUpInside" id="dXW-la-SQ8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="vSH-cl-iNS" id="JZa-Lu-x7v"/>
+                        <outlet property="timeLabel" destination="k9G-gQ-cLf" id="Rta-Yb-Fuz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owf-xH-6zO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="-290"/>
+        </scene>
+        <!--Time Attack Game View Controller-->
+        <scene sceneID="ntF-RY-cUl">
+            <objects>
+                <viewController id="5mS-bT-Ch6" customClass="HITimeAttackGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dtc-q8-efU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CBy-Lq-nTE">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="3H1-dl-nPQ">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="5mS-bT-Ch6" eventType="touchUpInside" id="k10-Wm-dR0"/>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="eMZ-t7-mca"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Fr-GR-bqu">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="movesLabel" destination="2Fr-GR-bqu" id="0dL-gz-06A"/>
+                        <outlet property="timeLabel" destination="CBy-Lq-nTE" id="va6-DQ-0Jc"/>
+                        <segue destination="iEb-3g-pYa" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="2R3-M7-Tf0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDD-0i-2QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364.80000000000001" y="-289.68000000000001"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LA7-Ho-Tlm">
+            <objects>
+                <viewController id="pVt-p5-BPk" customClass="HIViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SA0-C7-Uvb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="0yU-AS-RTC">
+                                <rect key="frame" x="20" y="426" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="pVt-p5-BPk" eventType="touchUpInside" id="IV2-9K-xuC"/>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="tY1-nf-g3q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YRz-WE-Oe3">
+                                <rect key="frame" x="20" y="8" width="280" height="514"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">We are a team of 5 people: Ravern, Taufiq, Yadunand, Sandeep and Nimalan, from the sunny island of Singapore. We are from the School of Science and Technology, Singapore.
+
+-----Credits------
+
+Ravern: Lead Programmer
+Yadunand: Graphics Designer
+Taufiq: Programmer
+Sandeep: Marketer
+Nimalan: Coordinater
+
+Facebook friends for their feedback.
+
+Finally Mr Aurelius Yeo, Mr Jonathan Chua and Mr Dean Ang for being such a great help to us!</string>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="14"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.45098039220000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ2-tM-AzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="-898"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="achievements_gray.png" width="1024" height="1024"/>
+        <image name="achievements_gray_selected.png" width="1024" height="1024"/>
+        <image name="classic_red.png" width="1024" height="1024"/>
+        <image name="classic_red_selected.png" width="1024" height="1024"/>
+        <image name="help_gray.png" width="1024" height="1024"/>
+        <image name="help_gray_selected.png" width="1024" height="1024"/>
+        <image name="red.png" width="1024" height="1024"/>
+        <image name="settings_gray.png" width="1024" height="1024"/>
+        <image name="settings_gray_selected.png" width="1024" height="1024"/>
+        <image name="start_red.png" width="1024" height="1024"/>
+        <image name="start_red_selected.png" width="1024" height="1024"/>
+        <image name="stop_gray.png" width="1024" height="1024"/>
+        <image name="stop_gray_selected.png" width="1024" height="1024"/>
+        <image name="time_attack_gray.png" width="1024" height="1024"/>
+        <image name="time_attack_gray_selected.png" width="1024" height="1024"/>
+        <image name="zen_blue.png" width="1024" height="1024"/>
+        <image name="zen_blue_selected.png" width="1024" height="1024"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="8lU-jW-i97"/>
+        <segue reference="0ji-IK-hmC"/>
+        <segue reference="3bx-1V-Bdf"/>
+        <segue reference="ofS-Wn-Y2b"/>
+        <segue reference="lqQ-IS-O9U"/>
+        <segue reference="ec6-WX-yzl"/>
+        <segue reference="IVz-OE-Fec"/>
+    </inferredMetricsTieBreakers>
+</document>

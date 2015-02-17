@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8fW-DR-0OW">
+    <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="timeburner_regular.ttf">
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+            <string>TimeBurner</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="HfM-AF-CHq">
+            <objects>
+                <viewController id="8fW-DR-0OW" customClass="HIStartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KEE-gV-hQW"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQT-pT-kZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QLx-mg-Vz0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Texagon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqj-Gq-tgQ">
+                                <rect key="frame" x="20" y="88" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="AUd-Wp-JM3"/>
+                                    <constraint firstAttribute="width" constant="280" id="f7t-vq-PmH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="55"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haxa Inc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3O-Hx-7a7">
+                                <rect key="frame" x="20" y="392" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="OWP-Kw-eAR"/>
+                                    <constraint firstAttribute="width" constant="280" id="eWC-Md-51V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="35"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="15x-u8-5rJ">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="TTq-4O-4ky"/>
+                                    <constraint firstAttribute="width" constant="200" id="aau-wC-Bym"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="x3O-Hx-7a7" secondAttribute="centerY" constant="-152" id="9F0-yg-QaD"/>
+                            <constraint firstAttribute="centerX" secondItem="15x-u8-5rJ" secondAttribute="centerX" id="Ktv-Nn-evW"/>
+                            <constraint firstAttribute="centerX" secondItem="Vqj-Gq-tgQ" secondAttribute="centerX" id="Vkf-ac-1NL"/>
+                            <constraint firstAttribute="centerY" secondItem="Vqj-Gq-tgQ" secondAttribute="centerY" constant="152" id="Xsw-zp-WKf"/>
+                            <constraint firstAttribute="centerY" secondItem="15x-u8-5rJ" secondAttribute="centerY" id="oHQ-va-WT7"/>
+                            <constraint firstAttribute="centerX" secondItem="x3O-Hx-7a7" secondAttribute="centerX" id="vS4-Mz-xSA"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <segue destination="51A-fP-iST" kind="custom" identifier="notfirst" customClass="HIFadeOutSegue" id="mGT-HZ-gPQ"/>
+                        <segue destination="s73-Z3-chJ" kind="custom" identifier="first" customClass="HIFadeOutSegue" id="bim-cV-8gj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NbD-Sf-jYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530" y="684"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="wuR-5N-eEM">
+            <objects>
+                <viewController id="s73-Z3-chJ" customClass="HITutorialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dFN-b2-BaG"/>
+                        <viewControllerLayoutGuide type="bottom" id="EHK-Kd-jei"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Xr-RG-iaQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap red tiles." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="yaY-0Z-IN7">
+                                <rect key="frame" x="20" y="35" width="280" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Tmm-SL-7u5"/>
+                                    <constraint firstAttribute="height" constant="76" id="kLI-M2-vMT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIm-bQ-qhI">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="1vA-dN-k0P"/>
+                                    <constraint firstAttribute="height" constant="40" id="afp-EJ-NlS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="Obm-jf-rrP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="yaY-0Z-IN7" firstAttribute="top" secondItem="dFN-b2-BaG" secondAttribute="bottom" constant="15" id="6QC-zs-NFC"/>
+                            <constraint firstItem="yaY-0Z-IN7" firstAttribute="leading" secondItem="0Xr-RG-iaQ" secondAttribute="leading" constant="20" id="9u1-LF-rh7"/>
+                            <constraint firstItem="fIm-bQ-qhI" firstAttribute="leading" secondItem="0Xr-RG-iaQ" secondAttribute="leading" constant="20" id="DeN-fQ-Ocg"/>
+                            <constraint firstItem="EHK-Kd-jei" firstAttribute="top" secondItem="fIm-bQ-qhI" secondAttribute="bottom" constant="20" id="PC9-bD-LBz"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="closeButton" destination="fIm-bQ-qhI" id="TtJ-We-1Ec"/>
+                        <outlet property="tutorialLabel" destination="yaY-0Z-IN7" id="Zph-zi-vF7"/>
+                        <segue destination="51A-fP-iST" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="owQ-Mu-SxO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RvY-0s-Q6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="978"/>
+        </scene>
+        <!--Achievement View Controller-->
+        <scene sceneID="P6h-em-OW5">
+            <objects>
+                <viewController id="MVk-AL-0QB" customClass="HIAchievementViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HQM-7W-fSp"/>
+                        <viewControllerLayoutGuide type="bottom" id="YhL-T9-5gc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qci-ww-6Yz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyu-de-kB1">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="IxR-pM-e9c"/>
+                                    <constraint firstAttribute="height" constant="40" id="s6T-Eg-oPc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wjq-7x-usS" kind="custom" customClass="HIFlatPushDownwardSegue" id="XYx-vo-YGe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="KMV-aj-Vdf">
+                                <rect key="frame" x="20" y="126" width="280" height="316"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="316" id="7ak-Jn-15d"/>
+                                    <constraint firstAttribute="width" constant="280" id="8bU-OX-7kE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YhL-T9-5gc" firstAttribute="top" secondItem="gyu-de-kB1" secondAttribute="bottom" constant="20" id="30h-OH-dAy"/>
+                            <constraint firstItem="gyu-de-kB1" firstAttribute="leading" secondItem="qci-ww-6Yz" secondAttribute="leading" constant="20" id="H3j-Z6-Sb0"/>
+                            <constraint firstAttribute="centerY" secondItem="KMV-aj-Vdf" secondAttribute="centerY" id="T9b-sD-QyT"/>
+                            <constraint firstAttribute="centerX" secondItem="KMV-aj-Vdf" secondAttribute="centerX" id="u1V-cJ-S0f"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="KMV-aj-Vdf" id="c6s-OU-hAC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndM-9C-knQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="-948"/>
+        </scene>
+        <!--Achievements Table View Controller-->
+        <scene sceneID="Baz-Tg-2vk">
+            <objects>
+                <viewController id="wjq-7x-usS" customClass="HIAchievementsTableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="teC-ef-B3n"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Z3-di-C4j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2ct-Dg-JcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="65" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ow8-2D-dsG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="jo6-na-SCg"/>
+                                </constraints>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="VaA-CZ-16F">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VaA-CZ-16F" id="rKg-Hv-gOH">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="MVk-AL-0QB" kind="custom" identifier="detail" customClass="HIFlatPushUpwardSegue" id="eNc-eE-Bbl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wjq-7x-usS" id="OXY-Lz-l4M"/>
+                                    <outlet property="delegate" destination="wjq-7x-usS" id="1Ij-fj-h7X"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crr-cw-zYG">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0CW-1N-5lg"/>
+                                    <constraint firstAttribute="width" constant="40" id="BgI-dN-w2C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="KS3-X3-xjI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ow8-2D-dsG" firstAttribute="top" secondItem="2ct-Dg-JcJ" secondAttribute="top" id="2sc-9a-xyA"/>
+                            <constraint firstItem="0Z3-di-C4j" firstAttribute="top" secondItem="Ow8-2D-dsG" secondAttribute="bottom" id="KAr-iQ-cUk"/>
+                            <constraint firstItem="Ow8-2D-dsG" firstAttribute="leading" secondItem="2ct-Dg-JcJ" secondAttribute="leading" id="LXv-id-PLJ"/>
+                            <constraint firstItem="Crr-cw-zYG" firstAttribute="leading" secondItem="2ct-Dg-JcJ" secondAttribute="leading" constant="20" id="aNz-Hf-exm"/>
+                            <constraint firstItem="0Z3-di-C4j" firstAttribute="top" secondItem="Crr-cw-zYG" secondAttribute="bottom" constant="20" id="iYc-XQ-wt0"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="tableView" destination="Ow8-2D-dsG" id="Q8q-4v-lzp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6h8-EK-aos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="-306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nob-07-d3J">
+            <objects>
+                <viewController id="FmB-Nj-otd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Amg-8p-ddS"/>
+                        <viewControllerLayoutGuide type="bottom" id="fAk-0y-xZ4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eLw-S1-HbL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are currently no settings to configure." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="kaK-Gt-34s">
+                                <rect key="frame" x="20" y="251" width="280" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Jhe-3F-MVj"/>
+                                    <constraint firstAttribute="width" constant="280" id="whY-ha-45G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0L-Ha-K1k">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IQG-Cv-fvV"/>
+                                    <constraint firstAttribute="width" constant="40" id="fHu-NB-tPR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="8lU-jW-i97"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32549019607843138" green="0.3411764705882353" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="y0L-Ha-K1k" firstAttribute="leading" secondItem="eLw-S1-HbL" secondAttribute="leading" constant="20" id="2LP-PH-CTy"/>
+                            <constraint firstAttribute="centerX" secondItem="kaK-Gt-34s" secondAttribute="centerX" id="EkW-ns-Aik"/>
+                            <constraint firstItem="fAk-0y-xZ4" firstAttribute="top" secondItem="y0L-Ha-K1k" secondAttribute="bottom" constant="20" id="F2K-3f-uMn"/>
+                            <constraint firstAttribute="centerY" secondItem="kaK-Gt-34s" secondAttribute="centerY" id="MRY-CN-Qe2"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1j-PE-qzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="-306"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="naG-G6-Qne">
+            <objects>
+                <viewController id="51A-fP-iST" customClass="HIMenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NO8-pN-fME"/>
+                        <viewControllerLayoutGuide type="bottom" id="2cp-k0-rNF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Ew-1P-Y59">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajo-kg-1LE">
+                                <rect key="frame" x="20" y="144" width="280" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="Bmw-b1-bis"/>
+                                    <constraint firstAttribute="width" constant="280" id="GjG-3h-fYg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="start_red.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="start_red_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="51A-fP-iST" eventType="touchUpInside" id="oPz-5D-2Ph"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dA-CC-u4I">
+                                <rect key="frame" x="117" y="513" width="86" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="1AX-KU-zBc"/>
+                                    <constraint firstAttribute="height" constant="30" id="RjT-wl-IGQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pVt-p5-BPk" kind="custom" customClass="HIFlatPushUpwardSegue" id="cVq-Tn-zej"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig2-CT-1Be">
+                                <rect key="frame" x="188" y="31" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="khu-Jr-LJl"/>
+                                    <constraint firstAttribute="height" constant="40" id="wvK-1i-atd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="help_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="help_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s73-Z3-chJ" kind="custom" customClass="HIFlatPushUpwardSegue" id="0ji-IK-hmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFI-AE-ICW">
+                                <rect key="frame" x="140" y="31" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ad4-Rh-g5i"/>
+                                    <constraint firstAttribute="width" constant="40" id="Eao-yn-biP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="settings_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="settings_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FmB-Nj-otd" kind="custom" customClass="HIFlatPushUpwardSegue" id="GU2-Du-46c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rO-ng-Zdi">
+                                <rect key="frame" x="92" y="31" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="9ny-1l-1CR"/>
+                                    <constraint firstAttribute="height" constant="40" id="bI0-G4-izu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="achievements_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="achievements_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wjq-7x-usS" kind="custom" customClass="HIFlatPushUpwardSegue" id="ofS-Wn-Y2b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dFI-AE-ICW" firstAttribute="top" secondItem="NO8-pN-fME" secondAttribute="bottom" constant="11" id="05l-2r-KGS"/>
+                            <constraint firstAttribute="centerX" secondItem="Ajo-kg-1LE" secondAttribute="centerX" id="1pM-um-1rV"/>
+                            <constraint firstItem="dFI-AE-ICW" firstAttribute="leading" secondItem="7rO-ng-Zdi" secondAttribute="trailing" constant="8" id="TXR-hn-ejN"/>
+                            <constraint firstAttribute="trailing" secondItem="0dA-CC-u4I" secondAttribute="trailing" constant="117" id="UNK-Tv-S6n"/>
+                            <constraint firstItem="7rO-ng-Zdi" firstAttribute="leading" secondItem="4Ew-1P-Y59" secondAttribute="leading" constant="92" id="UV3-5G-n5f"/>
+                            <constraint firstItem="ig2-CT-1Be" firstAttribute="leading" secondItem="dFI-AE-ICW" secondAttribute="trailing" constant="8" id="Y6a-eF-Kns"/>
+                            <constraint firstItem="7rO-ng-Zdi" firstAttribute="top" secondItem="NO8-pN-fME" secondAttribute="bottom" constant="11" id="hq3-fi-LhN"/>
+                            <constraint firstAttribute="centerY" secondItem="Ajo-kg-1LE" secondAttribute="centerY" id="uyq-ab-oEA"/>
+                            <constraint firstItem="ig2-CT-1Be" firstAttribute="top" secondItem="NO8-pN-fME" secondAttribute="bottom" constant="11" id="z1u-0M-C8x"/>
+                            <constraint firstItem="2cp-k0-rNF" firstAttribute="top" secondItem="0dA-CC-u4I" secondAttribute="bottom" constant="25" id="zcV-ms-eeP"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <segue destination="817-uW-ISR" kind="custom" identifier="multiplayer" customClass="HIFlatPushDownwardSegue" id="BhA-Xo-bHP"/>
+                        <segue destination="kDh-WA-P0M" kind="custom" identifier="singleplayer" customClass="HIFlatPushDownwardSegue" id="3bx-1V-Bdf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJj-Vq-KaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="339"/>
+        </scene>
+        <!--Zen Game View Controller-->
+        <scene sceneID="UEg-Gx-uNi">
+            <objects>
+                <viewController id="EV1-pK-mdd" customClass="HIZenGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yP6-LT-oQx"/>
+                        <viewControllerLayoutGuide type="bottom" id="RcD-j7-Gdo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x34-pT-0Z6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTN-BB-UjC">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zlb-hT-iQy"/>
+                                    <constraint firstAttribute="width" constant="40" id="ikQ-qR-ktv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="jGc-eC-IV7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foY-dJ-bDt">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="A6M-uI-ujH"/>
+                                    <constraint firstAttribute="height" constant="33" id="URs-eD-fhV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfW-Gs-AoS">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="NPR-uZ-dp8"/>
+                                    <constraint firstAttribute="width" constant="280" id="o9q-cn-eM5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091122981403" green="0.34015967149096243" blue="0.35204081632653061" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nTN-BB-UjC" firstAttribute="leading" secondItem="x34-pT-0Z6" secondAttribute="leading" constant="20" id="NSo-LF-QQX"/>
+                            <constraint firstItem="foY-dJ-bDt" firstAttribute="leading" secondItem="x34-pT-0Z6" secondAttribute="leading" constant="20" id="Wnr-62-oZQ"/>
+                            <constraint firstItem="sfW-Gs-AoS" firstAttribute="leading" secondItem="x34-pT-0Z6" secondAttribute="leading" constant="20" id="ZbW-Wv-a2v"/>
+                            <constraint firstItem="sfW-Gs-AoS" firstAttribute="top" secondItem="foY-dJ-bDt" secondAttribute="bottom" constant="8" id="k7E-6Z-qAE"/>
+                            <constraint firstItem="foY-dJ-bDt" firstAttribute="top" secondItem="yP6-LT-oQx" secondAttribute="bottom" constant="15" id="pKh-qA-k91"/>
+                            <constraint firstItem="nTN-BB-UjC" firstAttribute="top" secondItem="yP6-LT-oQx" secondAttribute="bottom" constant="12" id="vj7-TO-Y6r"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="movesLabel" destination="foY-dJ-bDt" id="tbm-Bv-fLf"/>
+                        <outlet property="timeLabel" destination="sfW-Gs-AoS" id="DyS-gY-g9s"/>
+                        <segue destination="MHH-0o-L7n" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="V1N-c8-hut"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QF-KY-7vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="978"/>
+        </scene>
+        <!--Classic Win View Controller-->
+        <scene sceneID="V9X-Dx-Y8H">
+            <objects>
+                <viewController id="Ah9-QT-ixl" customClass="HIClassicWinViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b9V-nZ-01q"/>
+                        <viewControllerLayoutGuide type="bottom" id="3eS-M7-sM2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bWD-rm-Az3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oU8-3b-AEb">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="4kJ-K7-sk2"/>
+                                    <constraint firstAttribute="width" constant="280" id="LWV-Ka-49L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ba-Aq-zty">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="JVw-tA-QTA"/>
+                                    <constraint firstAttribute="width" constant="280" id="g15-Po-VEn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fastest Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMx-VP-MTM">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="374-PU-lLA"/>
+                                    <constraint firstAttribute="width" constant="280" id="uj4-1X-TlQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-W1-6N4">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="acw-6H-Kwn"/>
+                                    <constraint firstAttribute="width" constant="280" id="hqH-cn-mVI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LYh-2f-mfo" kind="custom" customClass="HIFlatPushUpwardSegue" id="o1t-W4-jyq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df4-wZ-YPt">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="2a1-6H-LiY"/>
+                                    <constraint firstAttribute="height" constant="33" id="X7D-4l-Yrb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="n18-QE-SYo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2c-sP-U2U">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="i3g-pa-FN0"/>
+                                    <constraint firstAttribute="width" constant="280" id="o4B-qt-biE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonPressed:" destination="Ah9-QT-ixl" eventType="touchUpInside" id="Rhx-Ll-D0U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NMx-VP-MTM" firstAttribute="top" secondItem="6ba-Aq-zty" secondAttribute="bottom" constant="8" id="4oe-7l-ehh"/>
+                            <constraint firstItem="XzY-W1-6N4" firstAttribute="leading" secondItem="bWD-rm-Az3" secondAttribute="leading" constant="20" id="JRs-8i-SOl"/>
+                            <constraint firstItem="NMx-VP-MTM" firstAttribute="leading" secondItem="bWD-rm-Az3" secondAttribute="leading" constant="20" id="KTG-eH-8lL"/>
+                            <constraint firstItem="Df4-wZ-YPt" firstAttribute="top" secondItem="XzY-W1-6N4" secondAttribute="bottom" constant="8" id="MBH-eR-RXh"/>
+                            <constraint firstItem="Df4-wZ-YPt" firstAttribute="leading" secondItem="bWD-rm-Az3" secondAttribute="leading" constant="20" id="OM6-uu-mI7"/>
+                            <constraint firstItem="q2c-sP-U2U" firstAttribute="leading" secondItem="bWD-rm-Az3" secondAttribute="leading" constant="20" id="OOz-O7-qcq"/>
+                            <constraint firstAttribute="centerY" secondItem="oU8-3b-AEb" secondAttribute="centerY" constant="103" id="bgB-yt-oSz"/>
+                            <constraint firstItem="q2c-sP-U2U" firstAttribute="top" secondItem="Df4-wZ-YPt" secondAttribute="bottom" constant="8" id="hqU-Qc-cpG"/>
+                            <constraint firstAttribute="centerX" secondItem="oU8-3b-AEb" secondAttribute="centerX" id="j0X-Bb-BH8"/>
+                            <constraint firstItem="6ba-Aq-zty" firstAttribute="leading" secondItem="bWD-rm-Az3" secondAttribute="leading" constant="20" id="xm3-6k-nFN"/>
+                            <constraint firstItem="XzY-W1-6N4" firstAttribute="top" secondItem="NMx-VP-MTM" secondAttribute="bottom" constant="8" id="yhu-xO-vmK"/>
+                            <constraint firstItem="6ba-Aq-zty" firstAttribute="top" secondItem="oU8-3b-AEb" secondAttribute="bottom" constant="8" id="zBL-9z-hP0"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="NMx-VP-MTM" id="ZRc-pD-ZFg"/>
+                        <outlet property="timeLabel" destination="6ba-Aq-zty" id="AqM-2S-R8Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ab-bQ-bAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="339"/>
+        </scene>
+        <!--Multiplayer Game View Controller-->
+        <scene sceneID="Tvo-5a-PXv">
+            <objects>
+                <viewController id="817-uW-ISR" customClass="HIMultiplayerGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RQP-hr-riW"/>
+                        <viewControllerLayoutGuide type="bottom" id="GmE-M6-FXy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b2u-tE-DAb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIa-fL-T6w">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="7bJ-Ca-Zgh"/>
+                                    <constraint firstAttribute="width" constant="280" id="pLT-2v-uKH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqO-NY-QBv">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="drH-lG-Nb8"/>
+                                    <constraint firstAttribute="height" constant="40" id="xfj-5V-yeo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="bZu-uP-i47"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBT-7B-g21">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="joE-bo-a3b"/>
+                                    <constraint firstAttribute="width" constant="280" id="nwq-jc-IIy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qqO-NY-QBv" firstAttribute="top" secondItem="RQP-hr-riW" secondAttribute="bottom" constant="12" id="7nW-pa-4mF"/>
+                            <constraint firstItem="qqO-NY-QBv" firstAttribute="leading" secondItem="b2u-tE-DAb" secondAttribute="leading" constant="20" id="ADT-ik-V8P"/>
+                            <constraint firstItem="TBT-7B-g21" firstAttribute="top" secondItem="RQP-hr-riW" secondAttribute="bottom" constant="15" id="NeH-T5-DTV"/>
+                            <constraint firstItem="SIa-fL-T6w" firstAttribute="top" secondItem="TBT-7B-g21" secondAttribute="bottom" constant="8" id="nX5-wt-BLL"/>
+                            <constraint firstItem="TBT-7B-g21" firstAttribute="leading" secondItem="b2u-tE-DAb" secondAttribute="leading" constant="20" id="paS-z9-jw6"/>
+                            <constraint firstItem="SIa-fL-T6w" firstAttribute="leading" secondItem="b2u-tE-DAb" secondAttribute="leading" constant="20" id="wBb-ru-dow"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="movesLabel" destination="TBT-7B-g21" id="6kF-OZ-AHX"/>
+                        <outlet property="timeLabel" destination="SIa-fL-T6w" id="ltF-8a-HP8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mML-vS-BbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="978"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z6s-me-7O3">
+            <objects>
+                <viewController id="kDh-WA-P0M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RIP-v8-Vqq"/>
+                        <viewControllerLayoutGuide type="bottom" id="XBz-c9-0dw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0t6-va-lzk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Mode:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7g-Yf-RtU">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="QtS-hQ-LFG"/>
+                                    <constraint firstAttribute="height" constant="33" id="f8G-C6-AUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZx-Kt-U2P">
+                                <rect key="frame" x="52" y="168" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="Qj7-zR-pWg"/>
+                                    <constraint firstAttribute="width" constant="136" id="bU4-AI-NVF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="classic_red.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="classic_red_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LYh-2f-mfo" kind="custom" customClass="HIFlatPushDownwardSegue" id="ec6-WX-yzl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-Pp-mbr">
+                                <rect key="frame" x="134" y="216" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="3aZ-Vc-JdN"/>
+                                    <constraint firstAttribute="height" constant="136" id="i81-yb-eGZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="zen_blue.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="zen_blue_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EV1-pK-mdd" kind="custom" customClass="HIFlatPushDownwardSegue" id="lqQ-IS-O9U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jN0-CQ-1aH">
+                                <rect key="frame" x="52" y="263" width="136" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="Fq5-GK-Q7C"/>
+                                    <constraint firstAttribute="width" constant="136" id="SUy-Mh-Zri"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" backgroundImage="time_attack_gray.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="time_attack_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5mS-bT-Ch6" kind="custom" customClass="HIFlatPushDownwardSegue" id="IVz-OE-Fec"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vs-7S-Pfb">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="b9Q-Dy-0XW"/>
+                                    <constraint firstAttribute="height" constant="40" id="tJg-7E-JVE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="pCM-da-03y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0vs-7S-Pfb" firstAttribute="top" secondItem="RIP-v8-Vqq" secondAttribute="bottom" constant="12" id="5VE-Ae-es4"/>
+                            <constraint firstAttribute="centerX" secondItem="XSo-Pp-mbr" secondAttribute="centerX" constant="-42" id="6RP-PU-ujP"/>
+                            <constraint firstAttribute="centerX" secondItem="oZx-Kt-U2P" secondAttribute="centerX" constant="40" id="BYl-Vq-vQv"/>
+                            <constraint firstItem="a7g-Yf-RtU" firstAttribute="leading" secondItem="0t6-va-lzk" secondAttribute="leading" constant="20" id="O5R-MI-Rl8"/>
+                            <constraint firstAttribute="centerY" secondItem="oZx-Kt-U2P" secondAttribute="centerY" constant="48" id="RCo-II-Qi5"/>
+                            <constraint firstItem="0vs-7S-Pfb" firstAttribute="leading" secondItem="0t6-va-lzk" secondAttribute="leading" constant="20" id="Uu0-EG-FuE"/>
+                            <constraint firstItem="a7g-Yf-RtU" firstAttribute="top" secondItem="RIP-v8-Vqq" secondAttribute="bottom" constant="15" id="fib-jR-euh"/>
+                            <constraint firstAttribute="centerY" secondItem="XSo-Pp-mbr" secondAttribute="centerY" id="ia7-Wx-uGP"/>
+                            <constraint firstAttribute="centerX" secondItem="jN0-CQ-1aH" secondAttribute="centerX" constant="40" id="qYS-z3-xXk"/>
+                            <constraint firstAttribute="centerY" secondItem="jN0-CQ-1aH" secondAttribute="centerY" constant="-47" id="tEe-7A-7of"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2j-JM-hkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="339"/>
+        </scene>
+        <!--Classic Game View Controller-->
+        <scene sceneID="BoR-QB-nTd">
+            <objects>
+                <viewController id="LYh-2f-mfo" customClass="HIClassicGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ltg-qq-fKI"/>
+                        <viewControllerLayoutGuide type="bottom" id="9gv-tY-7SK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bBc-yZ-eMI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMW-6b-gxd">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="bMF-Kg-XMd"/>
+                                    <constraint firstAttribute="height" constant="33" id="hHS-ng-STG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUq-PN-GN8">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RYY-11-RRN"/>
+                                    <constraint firstAttribute="height" constant="40" id="mo2-aA-NXM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="gio-Sl-gsM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves Left:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLW-hY-rTW">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="SEe-fe-jAI"/>
+                                    <constraint firstAttribute="width" constant="280" id="W2q-5Y-Myc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VMW-6b-gxd" firstAttribute="top" secondItem="SLW-hY-rTW" secondAttribute="bottom" constant="8" id="M1X-Pc-vH8"/>
+                            <constraint firstItem="SLW-hY-rTW" firstAttribute="top" secondItem="Ltg-qq-fKI" secondAttribute="bottom" constant="15" id="OH9-3g-xtO"/>
+                            <constraint firstItem="VMW-6b-gxd" firstAttribute="leading" secondItem="bBc-yZ-eMI" secondAttribute="leading" constant="20" id="OiV-6h-1MW"/>
+                            <constraint firstItem="SLW-hY-rTW" firstAttribute="leading" secondItem="bBc-yZ-eMI" secondAttribute="leading" constant="20" id="Szl-4s-VJv"/>
+                            <constraint firstItem="pUq-PN-GN8" firstAttribute="top" secondItem="Ltg-qq-fKI" secondAttribute="bottom" constant="12" id="iuG-FM-5PE"/>
+                            <constraint firstItem="pUq-PN-GN8" firstAttribute="leading" secondItem="bBc-yZ-eMI" secondAttribute="leading" constant="20" id="xYU-yP-WR1"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="movesLabel" destination="SLW-hY-rTW" id="M3a-cx-vHT"/>
+                        <outlet property="timeLabel" destination="VMW-6b-gxd" id="2XU-ou-lRh"/>
+                        <segue destination="Ah9-QT-ixl" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="DUh-TR-Btw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1h-ID-e4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="339"/>
+        </scene>
+        <!--Time Attack Win View Controller-->
+        <scene sceneID="EYe-cB-J0f">
+            <objects>
+                <viewController id="MHH-0o-L7n" customClass="HITimeAttackWinViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dPh-tl-UHr"/>
+                        <viewControllerLayoutGuide type="bottom" id="CLc-vm-EFW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ca9-Hj-pkw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQu-Vq-RVx">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="0jY-Bb-6JK"/>
+                                    <constraint firstAttribute="width" constant="280" id="e8j-0H-1yR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCS-CM-meg">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="5RJ-tY-DGu"/>
+                                    <constraint firstAttribute="width" constant="280" id="JzQ-0Q-eos"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHc-Zb-79q">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="7sj-GL-4dM"/>
+                                    <constraint firstAttribute="height" constant="33" id="LIR-MQ-3PT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EV1-pK-mdd" kind="custom" customClass="HIFlatPushUpwardSegue" id="hew-60-3Nn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6A-Qv-bMW">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="2Vt-Nr-d1x"/>
+                                    <constraint firstAttribute="height" constant="33" id="uvK-Qg-xbx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="EmB-um-Jft"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LI0-iw-civ">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="r0l-Tl-6Oq"/>
+                                    <constraint firstAttribute="width" constant="280" id="vIC-bo-w6A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonPressed:" destination="MHH-0o-L7n" eventType="touchUpInside" id="7Cx-1G-Dxg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oJ-wf-NQb">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Nhw-ch-vy2"/>
+                                    <constraint firstAttribute="width" constant="280" id="uhR-TL-F7k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="DQu-Vq-RVx" secondAttribute="centerY" constant="103" id="DeY-YR-4Ad"/>
+                            <constraint firstItem="zHc-Zb-79q" firstAttribute="top" secondItem="7oJ-wf-NQb" secondAttribute="bottom" constant="8" id="FdQ-4s-UKS"/>
+                            <constraint firstItem="7oJ-wf-NQb" firstAttribute="top" secondItem="bCS-CM-meg" secondAttribute="bottom" constant="8" id="MN7-U0-fZX"/>
+                            <constraint firstItem="7oJ-wf-NQb" firstAttribute="leading" secondItem="Ca9-Hj-pkw" secondAttribute="leading" constant="20" id="Q28-zI-cgg"/>
+                            <constraint firstItem="bCS-CM-meg" firstAttribute="top" secondItem="DQu-Vq-RVx" secondAttribute="bottom" constant="8" id="TTh-tG-1vg"/>
+                            <constraint firstItem="a6A-Qv-bMW" firstAttribute="leading" secondItem="Ca9-Hj-pkw" secondAttribute="leading" constant="20" id="VpL-Qt-dhz"/>
+                            <constraint firstItem="bCS-CM-meg" firstAttribute="leading" secondItem="Ca9-Hj-pkw" secondAttribute="leading" constant="20" id="bGM-uq-XBc"/>
+                            <constraint firstItem="a6A-Qv-bMW" firstAttribute="top" secondItem="zHc-Zb-79q" secondAttribute="bottom" constant="8" id="cQA-9r-fwE"/>
+                            <constraint firstItem="LI0-iw-civ" firstAttribute="top" secondItem="a6A-Qv-bMW" secondAttribute="bottom" constant="8" id="dZM-0K-SdX"/>
+                            <constraint firstItem="zHc-Zb-79q" firstAttribute="leading" secondItem="Ca9-Hj-pkw" secondAttribute="leading" constant="20" id="tEP-S6-ICq"/>
+                            <constraint firstAttribute="centerX" secondItem="DQu-Vq-RVx" secondAttribute="centerX" id="xTu-JI-GV9"/>
+                            <constraint firstItem="LI0-iw-civ" firstAttribute="leading" secondItem="Ca9-Hj-pkw" secondAttribute="leading" constant="20" id="zsF-i7-0Ny"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="7oJ-wf-NQb" id="GqL-K1-yRW"/>
+                        <outlet property="timeLabel" destination="bCS-CM-meg" id="tsd-yN-hJ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzd-Ec-9rO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="978"/>
+        </scene>
+        <!--Time Attack Win View Controller-->
+        <scene sceneID="lGB-MD-Jmx">
+            <objects>
+                <viewController id="iEb-3g-pYa" customClass="HITimeAttackWinViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZYa-GV-Qx6"/>
+                        <viewControllerLayoutGuide type="bottom" id="CCx-0t-2xr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g9q-ZH-QW3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hW8-gw-0p7">
+                                <rect key="frame" x="20" y="137" width="280" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="TmQ-qo-Bwg"/>
+                                    <constraint firstAttribute="width" constant="280" id="kl0-ue-blt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="40"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9G-gQ-cLf">
+                                <rect key="frame" x="20" y="233" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="0iS-sZ-DU1"/>
+                                    <constraint firstAttribute="width" constant="280" id="DEW-bS-ud1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSH-cl-iNS">
+                                <rect key="frame" x="20" y="274" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Eje-fL-9Im"/>
+                                    <constraint firstAttribute="height" constant="33" id="rgK-2g-4RP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icp-Cl-3JH">
+                                <rect key="frame" x="20" y="315" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="6M7-iH-PaS"/>
+                                    <constraint firstAttribute="width" constant="280" id="v6F-G7-UEf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Play Again"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5mS-bT-Ch6" kind="custom" customClass="HIFlatPushUpwardSegue" id="INW-Xa-eBo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htK-94-JJg">
+                                <rect key="frame" x="20" y="356" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="4fv-2e-pqD"/>
+                                    <constraint firstAttribute="width" constant="280" id="Vbs-r3-cfo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Main Menu"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushUpwardSegue" id="rXI-Ph-W2K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gnz-VT-0af">
+                                <rect key="frame" x="20" y="397" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="2EB-fx-M4O"/>
+                                    <constraint firstAttribute="width" constant="280" id="Esu-Qp-xtS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="23"/>
+                                <state key="normal" title="Share"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonPressed:" destination="iEb-3g-pYa" eventType="touchUpInside" id="dXW-la-SQ8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="k9G-gQ-cLf" firstAttribute="top" secondItem="hW8-gw-0p7" secondAttribute="bottom" constant="8" id="1tN-zW-MzL"/>
+                            <constraint firstItem="htK-94-JJg" firstAttribute="leading" secondItem="g9q-ZH-QW3" secondAttribute="leading" constant="20" id="8BX-cC-ICh"/>
+                            <constraint firstItem="Icp-Cl-3JH" firstAttribute="top" secondItem="vSH-cl-iNS" secondAttribute="bottom" constant="8" id="Dkx-zs-BQA"/>
+                            <constraint firstItem="htK-94-JJg" firstAttribute="top" secondItem="Icp-Cl-3JH" secondAttribute="bottom" constant="8" id="Hoa-JR-hnr"/>
+                            <constraint firstItem="Gnz-VT-0af" firstAttribute="leading" secondItem="g9q-ZH-QW3" secondAttribute="leading" constant="20" id="Np7-C3-5S4"/>
+                            <constraint firstItem="Gnz-VT-0af" firstAttribute="top" secondItem="htK-94-JJg" secondAttribute="bottom" constant="8" id="PUV-RX-2SB"/>
+                            <constraint firstAttribute="centerY" secondItem="hW8-gw-0p7" secondAttribute="centerY" constant="103" id="TfN-dt-HvS"/>
+                            <constraint firstItem="k9G-gQ-cLf" firstAttribute="leading" secondItem="g9q-ZH-QW3" secondAttribute="leading" constant="20" id="d1R-la-Ri3"/>
+                            <constraint firstItem="vSH-cl-iNS" firstAttribute="leading" secondItem="g9q-ZH-QW3" secondAttribute="leading" constant="20" id="d2c-w9-myX"/>
+                            <constraint firstItem="vSH-cl-iNS" firstAttribute="top" secondItem="k9G-gQ-cLf" secondAttribute="bottom" constant="8" id="h5W-7K-kb1"/>
+                            <constraint firstAttribute="centerX" secondItem="hW8-gw-0p7" secondAttribute="centerX" id="nTw-jt-uzB"/>
+                            <constraint firstItem="Icp-Cl-3JH" firstAttribute="leading" secondItem="g9q-ZH-QW3" secondAttribute="leading" constant="20" id="veL-AG-uLp"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="fastestTimeLabel" destination="vSH-cl-iNS" id="JZa-Lu-x7v"/>
+                        <outlet property="timeLabel" destination="k9G-gQ-cLf" id="Rta-Yb-Fuz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owf-xH-6zO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="-306"/>
+        </scene>
+        <!--Time Attack Game View Controller-->
+        <scene sceneID="ntF-RY-cUl">
+            <objects>
+                <viewController id="5mS-bT-Ch6" customClass="HITimeAttackGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Aga-iI-wOV"/>
+                        <viewControllerLayoutGuide type="bottom" id="VRR-IZ-dgn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dtc-q8-efU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBy-Lq-nTE">
+                                <rect key="frame" x="20" y="76" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="gTy-pZ-DkT"/>
+                                    <constraint firstAttribute="width" constant="280" id="qVC-u1-uZP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H1-dl-nPQ">
+                                <rect key="frame" x="20" y="32" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="03P-jr-qub"/>
+                                    <constraint firstAttribute="height" constant="40" id="tla-CP-RcT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kDh-WA-P0M" kind="custom" customClass="HIFlatPushUpwardSegue" id="eMZ-t7-mca"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fr-GR-bqu">
+                                <rect key="frame" x="20" y="35" width="280" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="ZOa-wQ-tRe"/>
+                                    <constraint firstAttribute="width" constant="280" id="hX7-v4-eZe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="25"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32519091119999999" green="0.34015967149999998" blue="0.3520408163" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CBy-Lq-nTE" firstAttribute="leading" secondItem="Dtc-q8-efU" secondAttribute="leading" constant="20" id="8Wg-V1-A5y"/>
+                            <constraint firstItem="CBy-Lq-nTE" firstAttribute="top" secondItem="2Fr-GR-bqu" secondAttribute="bottom" constant="8" id="HGF-5H-y8f"/>
+                            <constraint firstItem="3H1-dl-nPQ" firstAttribute="leading" secondItem="Dtc-q8-efU" secondAttribute="leading" constant="20" id="gE2-cd-4jo"/>
+                            <constraint firstItem="2Fr-GR-bqu" firstAttribute="top" secondItem="Aga-iI-wOV" secondAttribute="bottom" constant="15" id="ox8-js-D1Y"/>
+                            <constraint firstItem="3H1-dl-nPQ" firstAttribute="top" secondItem="Aga-iI-wOV" secondAttribute="bottom" constant="12" id="r1k-2U-fxM"/>
+                            <constraint firstItem="2Fr-GR-bqu" firstAttribute="leading" secondItem="Dtc-q8-efU" secondAttribute="leading" constant="20" id="sg4-gD-Msw"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                    <connections>
+                        <outlet property="movesLabel" destination="2Fr-GR-bqu" id="0dL-gz-06A"/>
+                        <outlet property="timeLabel" destination="CBy-Lq-nTE" id="va6-DQ-0Jc"/>
+                        <segue destination="iEb-3g-pYa" kind="custom" identifier="win" customClass="HIFlatPushDownwardSegue" id="2R3-M7-Tf0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDD-0i-2QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="-306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LA7-Ho-Tlm">
+            <objects>
+                <viewController id="pVt-p5-BPk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ci2-qn-tqI"/>
+                        <viewControllerLayoutGuide type="bottom" id="lsI-cP-p49"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SA0-C7-Uvb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yU-AS-RTC">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Iyp-Vs-pf7"/>
+                                    <constraint firstAttribute="width" constant="40" id="wrk-t2-Ufx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="30"/>
+                                <state key="normal" image="stop_gray.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="stop_gray_selected.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="51A-fP-iST" kind="custom" customClass="HIFlatPushDownwardSegue" id="tY1-nf-g3q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="YRz-WE-Oe3">
+                                <rect key="frame" x="20" y="20" width="280" height="528"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="528" id="H0e-aK-LMy"/>
+                                    <constraint firstAttribute="width" constant="280" id="f2j-TA-RxG"/>
+                                </constraints>
+                                <string key="text">We are a team of 5 people: Ravern, Taufiq, Yadunand, Sandeep and Nimalan, from the sunny island of Singapore. We are from the School of Science and Technology, Singapore.
+
+-----Credits------
+
+Ravern: Master Programmer
+Yadunand: Graphics Designer
+Taufiq: Programmer
+Sandeep: Marketer
+Nimalan: Coordinater
+
+Facebook friends for their feedback.
+
+Finally Mr Aurelius Yeo, Mr Jonathan Chua and Mr Dean Ang for being such a great help to us!</string>
+                                <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="16"/>
+                                <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32549019610000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="YRz-WE-Oe3" secondAttribute="centerX" id="9JA-dv-H53"/>
+                            <constraint firstItem="0yU-AS-RTC" firstAttribute="leading" secondItem="SA0-C7-Uvb" secondAttribute="leading" constant="20" id="P2l-OW-azC"/>
+                            <constraint firstAttribute="centerY" secondItem="YRz-WE-Oe3" secondAttribute="centerY" id="Tw1-W2-qVh"/>
+                            <constraint firstItem="lsI-cP-p49" firstAttribute="top" secondItem="0yU-AS-RTC" secondAttribute="bottom" constant="20" id="esj-tp-Zd3"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ2-tM-AzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="-948"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="achievements_gray.png" width="1024" height="1024"/>
+        <image name="achievements_gray_selected.png" width="1024" height="1024"/>
+        <image name="classic_red.png" width="1024" height="1024"/>
+        <image name="classic_red_selected.png" width="1024" height="1024"/>
+        <image name="help_gray.png" width="1024" height="1024"/>
+        <image name="help_gray_selected.png" width="1024" height="1024"/>
+        <image name="red.png" width="1024" height="1024"/>
+        <image name="settings_gray.png" width="1024" height="1024"/>
+        <image name="settings_gray_selected.png" width="1024" height="1024"/>
+        <image name="start_red.png" width="1024" height="1024"/>
+        <image name="start_red_selected.png" width="1024" height="1024"/>
+        <image name="stop_gray.png" width="1024" height="1024"/>
+        <image name="stop_gray_selected.png" width="1024" height="1024"/>
+        <image name="time_attack_gray.png" width="1024" height="1024"/>
+        <image name="time_attack_gray_selected.png" width="1024" height="1024"/>
+        <image name="zen_blue.png" width="1024" height="1024"/>
+        <image name="zen_blue_selected.png" width="1024" height="1024"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ec6-WX-yzl"/>
+        <segue reference="3bx-1V-Bdf"/>
+        <segue reference="EmB-um-Jft"/>
+        <segue reference="hew-60-3Nn"/>
+        <segue reference="ofS-Wn-Y2b"/>
+        <segue reference="0ji-IK-hmC"/>
+        <segue reference="IVz-OE-Fec"/>
+    </inferredMetricsTieBreakers>
+</document>
