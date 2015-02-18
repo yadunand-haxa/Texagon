@@ -100,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbD-Sf-jYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-283" y="647"/>
+            <point key="canvasLocation" x="-440" y="411"/>
         </scene>
         <!--Tutorial View Controller-->
         <scene sceneID="wuR-5N-eEM">
@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RvY-0s-Q6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-177" y="925"/>
+            <point key="canvasLocation" x="-479" y="1050"/>
         </scene>
         <!--Achievement View Controller-->
         <scene sceneID="P6h-em-OW5">
@@ -260,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6h8-EK-aos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.666666666666664" y="-289.68000000000001"/>
+            <point key="canvasLocation" x="-247" y="-290"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="Nob-07-d3J">
@@ -330,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1j-PE-qzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165" y="-308"/>
+            <point key="canvasLocation" x="111" y="-300"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="naG-G6-Qne">
@@ -595,7 +595,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ab-bQ-bAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566.39999999999998" y="320.92000000000002"/>
+            <point key="canvasLocation" x="740" y="271"/>
         </scene>
         <!--Multiplayer Game View Controller-->
         <scene sceneID="Tvo-5a-PXv">
@@ -746,7 +746,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2j-JM-hkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165.86666666666667" y="320.92000000000002"/>
+            <point key="canvasLocation" x="220" y="354"/>
         </scene>
         <!--Classic Game View Controller-->
         <scene sceneID="BoR-QB-nTd">
@@ -801,7 +801,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A1h-ID-e4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364.80000000000001" y="320.92000000000002"/>
+            <point key="canvasLocation" x="513" y="320"/>
         </scene>
         <!--Zen Win View Controller-->
         <scene sceneID="EYe-cB-J0f">
@@ -983,7 +983,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="owf-xH-6zO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="644" y="-290"/>
+            <point key="canvasLocation" x="651" y="-323"/>
         </scene>
         <!--Time Attack Game View Controller-->
         <scene sceneID="ntF-RY-cUl">
@@ -1038,7 +1038,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CDD-0i-2QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364.80000000000001" y="-289.68000000000001"/>
+            <point key="canvasLocation" x="397" y="-300"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LA7-Ho-Tlm">
@@ -1067,9 +1067,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YRz-WE-Oe3">
-                                <rect key="frame" x="20" y="8" width="280" height="514"/>
+                                <rect key="frame" x="-393" y="8" width="1106" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">We are a team of 5 people: Ravern, Taufiq, Yadunand, Sandeep and Nimalan, from the sunny island of Singapore. We are from the School of Science and Technology, Singapore.
+                                <mutableString key="text">We are a team of 5 people: Ravern, Taufiq, 
+Yadunand, Sandeep and Nimalan
+from the 
+School of Science and Technology, Singapore. 
+We are from a small startup company
+called Haxa-Inc. 
 
 -----Credits------
 
@@ -1077,11 +1082,13 @@ Ravern: Lead Programmer
 Yadunand: Graphics Designer
 Taufiq: Programmer
 Sandeep: Marketer
-Nimalan: Coordinater
-
-Facebook friends for their feedback.
-
-Finally Mr Aurelius Yeo, Mr Jonathan Chua and Mr Dean Ang for being such a great help to us!</string>
+Nimalan: Marketer / Coordinator, 
+We would like to thank Mr Aurelius Yeo,
+ Mr Jonathan Chua and Mr Dean Ang for being 
+such a great help to us.
+We would also like to thank all of you all who 
+gave us feedback during our beta period. 
+</mutableString>
                                 <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="14"/>
                                 <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1094,7 +1101,7 @@ Finally Mr Aurelius Yeo, Mr Jonathan Chua and Mr Dean Ang for being such a great
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJ2-tM-AzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165" y="-898"/>
+            <point key="canvasLocation" x="386" y="-918"/>
         </scene>
     </scenes>
     <resources>
@@ -1122,12 +1129,12 @@ Finally Mr Aurelius Yeo, Mr Jonathan Chua and Mr Dean Ang for being such a great
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="8lU-jW-i97"/>
-        <segue reference="0ji-IK-hmC"/>
-        <segue reference="3bx-1V-Bdf"/>
-        <segue reference="ofS-Wn-Y2b"/>
+        <segue reference="bim-cV-8gj"/>
+        <segue reference="tY1-nf-g3q"/>
         <segue reference="lqQ-IS-O9U"/>
+        <segue reference="gio-Sl-gsM"/>
         <segue reference="ec6-WX-yzl"/>
         <segue reference="IVz-OE-Fec"/>
+        <segue reference="XYx-vo-YGe"/>
     </inferredMetricsTieBreakers>
 </document>
