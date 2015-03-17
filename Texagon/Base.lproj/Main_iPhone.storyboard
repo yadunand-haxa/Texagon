@@ -1069,7 +1069,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YRz-WE-Oe3">
                                 <rect key="frame" x="-393" y="8" width="1106" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">We are a team of 5 people: Ravern, Taufiq, 
+                                <string key="text">We are a team of 5 people: Ravern, Taufiq, 
 Yadunand, Sandeep and Nimalan
 from the 
 School of Science and Technology, Singapore. 
@@ -1088,7 +1088,7 @@ We would like to thank Mr Aurelius Yeo,
 such a great help to us.
 We would also like to thank all of you all who 
 gave us feedback during our beta period. 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="TimeBurner" family="TimeBurner" pointSize="14"/>
                                 <color key="textColor" red="0.91904466350000003" green="0.96134891850000004" blue="0.99492704870000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
